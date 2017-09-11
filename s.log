@@ -1,0 +1,78 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2016.3.6)  6 MAR 2016 23:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**hello-latexxelatex hello-latex
+(/usr/share/texlive/texmf-dist/tex/latex/tools/s.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 11 languages loaded.
+File ignored
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> hello-latexxelatex h
+                        ello-latex
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+*X
+Missing character: There is no X in font nullfont!
+
+*
+
+Overfull \hbox (20.0pt too wide) detected at line 0
+[]
+ []
+
+(Please type a command or say `\end')
+*X11r6
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> X
+     11r6
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no X in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+*
+! Interruption.
+<*> 
+    
+? X
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 495331
+ 172 string characters out of 6181441
+ 46970 words of memory out of 5000000
+ 3316 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 5i,0n,4p,110b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
