@@ -64,19 +64,29 @@
 
 
 \section{left and right}{
-  \raggedright{text on left}
+  \raggedright{\textbackslash{}raggedright\{text on left\}}
   \begin{flushleft}
-    another text on left
+    \textbackslash{}begin\{flushleft\}\\
+    flushleft\\
+    \textbackslash{}end\{flushleft\}
   \end{flushleft}
-  \raggedleft{text on right}
+  \raggedleft{\textbackslash{}raggedleft\{text on right\}}
   \begin{flushright}
-    another text on right
+    \textbackslash{}begin\{flushright\}\\
+    flushright\\
+    \textbackslash{}end\{flushright\}
   \end{flushright}
+  \centering{\textbackslash{}centering\{centering\}}
+  \begin{center}
+    \textbackslash{}begin\{center\}\\
+    center\\
+    \textbackslash{}end\{center\}
+  \end{center}
 }
 
 \section{something verbatim}
 \begin{verbatim}
-some thing verbatim \\ /23454234$&%^&^(*^\z@%@#$%
+some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
 \end{verbatim}
 
 \section{colors}{
