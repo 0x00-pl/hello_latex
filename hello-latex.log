@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  25 OCT 2017 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  25 OCT 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,28 +233,30 @@ File: head_image.jpg Graphic file (type eps)
 File: head_image.jpg Graphic file (type eps)
  <head_image.jpg> [5
 
+] [6
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 181--188
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 167.
+(Font)              <9> on input line 190.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 167.
+(Font)              <5> on input line 190.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--186
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
-[6] [7] (./hello-latex.aux) ) 
+[7] [8] (./hello-latex.aux) ) 
 Here is how much of TeX's memory you used:
- 1896 strings out of 494565
- 22627 string characters out of 6172774
+ 1900 strings out of 494565
+ 22684 string characters out of 6172774
  74141 words of memory out of 5000000
- 5234 multiletter control sequences out of 15000+600000
- 12901 words of font info for 45 fonts, out of 8000000 for 9000
+ 5237 multiletter control sequences out of 15000+600000
+ 13546 words of font info for 47 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  25i,8n,28p,204b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hello-latex.dvi (7 pages, 12908 bytes).
+Output written on hello-latex.dvi (8 pages, 14064 bytes).

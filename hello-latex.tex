@@ -84,10 +84,11 @@
   \end{center}
 }
 
-\section{something verbatim}
+\section{something verbatim}{
 \begin{verbatim}
 some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
 \end{verbatim}
+}
 
 \section{colors}{
   \definecolor{tianyi_blue}{RGB}{102,204,255}
@@ -100,29 +101,9 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
   \end{figure}
 }
 \clearpage
-\section{lists}
-\begin{itemize}
-\item item 1
-\item item 2
-\end{itemize}
-
-\section{tables}
-\subsection{common elements II}
-\subsection{tabular}
-this is a tabular: \\
-\begin{tabular}{lcr||lcr}
-  \hline
-  \multicolumn{3}{|c|}{3$\times$3 matrix} \\
-  \hline
-  11 & 12 & 13 \\
-  \hline
-  21 & 22 & 23 \\
-  \cline{1-2}
-  31 & 32 & 33
-\end{tabular}
 
 \section{images}{
-  \begin{figure}
+  \begin{figure}[h!]
     \begin{minipage}[b]{0.45\linewidth}
       \centering
       \includegraphics[natwidth=\linewidth,natheight=0.5\linewidth,scale=1]{head_image.jpg}
@@ -135,6 +116,48 @@ this is a tabular: \\
     \caption{2 images}
   \end{figure}
 }
+\clearpage
+
+\section{size and fount}{
+  \subsection{size}{
+    \tiny tiny\\
+    \footnotesize{footnotesize}\\ 
+    {\small small}\\
+    \normalsize normalsize\\
+    \large large\\
+    \Large Large\\
+    \LARGE LARGE\\
+    \huge huge
+  }
+  \subsection{fount}{
+    \textnormal{testnormal} {\normalfont normalfont}\\
+    \texttt{texttt} {\ttfamily ttfamily}\\
+    \textbf{textbf} {\bfseries bfseries}\\
+    \textit{testit} {\itshape itshape}
+  }
+}
+
+\section{lists}
+\begin{itemize}
+\item item 1
+\item item 2
+\end{itemize}
+
+\section{tables}{
+  \subsection{tabular}
+  this is a tabular: \\
+  \begin{tabular}{lcr||lcr}
+    \hline
+    \multicolumn{3}{|c|}{3$\times$3 matrix} \\
+    \hline
+    11 & 12 & 13 \\
+    \hline
+    21 & 22 & 23 \\
+    \cline{1-2}
+    31 & 32 & 33
+  \end{tabular}
+}
+
 \section{common errors -- part 4 of the lecture}{
   \subsection{notation and referance}{
     examples:  
