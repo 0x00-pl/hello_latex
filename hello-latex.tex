@@ -180,6 +180,22 @@ $[!p]$ means put it into another page. \\
 \item item 2
 \end{itemize}
 
+\section{turn and rotate}{
+  see the difference:\\
+  prev line\\
+  turn
+  \begin{turn}{30}
+    --30--
+  \end{turn}
+  deg\\
+  and rotate
+  \begin{rotate}{30}
+    --30--
+  \end{rotate}
+  deg\\
+  nextline
+}
+
 \section{tables}{
   \subsection{tabular}
   this is a tabular: \\
@@ -187,16 +203,12 @@ $[!p]$ means put it into another page. \\
     \hline
     \multicolumn{3}{|c|}{3$\times$3 matrix} \\
     \hline
-    11 & 12 & 13 \\
+    11 & 12 & 13 \\ % symbol & to align contents
     \hline
-    21 & 22 & 23 \\
-    \cline{1-2}
-    31 & 32 & 33
+    21 & 22 & 23 &1111&1111&1111\\
+    \cline{1-2}\cline{4-5}
+    31 & 32 & 33 & 34 & 35 & 36
   \end{tabular}
-}
-
-\section{rotate}{
-  \begin{turn}{30}turn30\end{turn}
 }
 
 \section{common errors -- part 4 of the lecture}{
