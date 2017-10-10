@@ -114,46 +114,43 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     \label{fig:2img}
     \caption{2 images}
   \end{figure}
-
-  \subsection{notation and referance}{
-    \subsubsection{structure}{
+}
+\section{notation and referance}{
+  \subsection{structure}{
+    {
 \begin{verbatim}
-\lable{marker}
-...
-\ref{marker}
-...
-\pageref{marker}
+  \lable{marker}
+  ...
+  \ref{marker}
+  ...
+  \pageref{marker}
 \end{verbatim}
-
-we can ref the (figure:2img): \ref{fig:2img}
     }
+    we can ref the (figure:2img): \ref{fig:2img}
+  }
 
-    \subsubsection{more on figure}{
-      on
-\begin{verbatim}
-\begin{figure}[!t]
-\end{verbatim}
+  \subsection{more on figure}{
+    on\begin{verbatim}\begin{figure}[!t]\end{verbatim}
+    the $[!t]$ notation means force the image shows on the top of the page. \\
+    ps: \\
+    $[!h]$ means put it here. \\
+    $[!t]$ means put it on top. \\
+    $[!b]$ means put it on bottom. \\
+    $[!p]$ means put it into another page. \\
+  }
 
-the $[!t]$ notation means force the image shows on the top of the page. \\
-ps: \\
-$[!h]$ means put it here. \\
-$[!t]$ means put it on top. \\
-$[!b]$ means put it on bottom. \\
-$[!p]$ means put it into another page. \\
-    }
-
-    \subsubsection{footnote}{
-      this is the footnote \footnote{the footnote text is here}
-    }
-    \subsubsection{hyper link}{
-      %\usepackage{hyperref}
-      use the package 'hyperref' \\
-      $\backslash url\{http://the.url.is.here\}$ \\
-      $\backslash href\{http://there.is.another.url\}$
-      $\{$the link title or some discription$\}$
-    }
+  \subsection{footnote}{
+    this is the footnote \footnote{the footnote text is here}
+  }
+  \subsection{hyper link}{
+    %\usepackage{hyperref}
+    use the package 'hyperref' \\
+    $\backslash url\{http://the.url.is.here\}$ \\
+    $\backslash href\{http://there.is.another.url\}$
+    $\{$the link title or some discription$\}$
   }
 }
+
 
 \section{size and fount}{
   \subsection{size}{
@@ -174,11 +171,12 @@ $[!p]$ means put it into another page. \\
   }
 }
 
-\section{lists}
-\begin{itemize}
-\item item 1
-\item item 2
-\end{itemize}
+\section{lists}{
+  \begin{itemize}
+  \item item 1
+  \item item 2
+  \end{itemize}
+}
 
 \section{turn and rotate}{
   see the difference:\\
