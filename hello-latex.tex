@@ -208,6 +208,22 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     31 & 32 & 33 & 34 & 35 & 36
   \end{tabular}
 }
+\section{vector image: gnuplot}{
+  \subsection{set format}{
+    set term postscript eps enhanced color font 'Times. 24'
+    set output 'sin.eps'
+  }
+  \subsection{plot sin}{
+    plot sin(x)
+  }
+  \subsection{save file}{
+    set term x11
+    set output
+  }
+  \subsubsection{import}{
+    use graphicx package and includegraphics command
+  }
+}
 
 \section{common errors -- part 4 of the lecture}{
   
