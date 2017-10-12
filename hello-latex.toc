@@ -5,29 +5,29 @@
 \contentsline {subsubsection}{\numberline {2.2.1}set section counter}{2}
 \contentsline {section}{\numberline {3}contents 你好 \LaTeX }{2}
 \contentsline {paragraph}{first contents}{2}
-\contentsline {section}{\numberline {4}strings}{2}
+\contentsline {section}{\numberline {4}strings}{3}
 \contentsline {section}{\numberline {5}formulas}{3}
 \contentsline {section}{\numberline {6}left and right}{3}
 \contentsline {section}{\numberline {7}something verbatim}{3}
 \contentsline {section}{\numberline {8}colors}{3}
 \contentsline {section}{\numberline {9}images}{5}
-\contentsline {section}{\numberline {10}notation and referance}{5}
-\contentsline {subsection}{\numberline {10.1}structure}{5}
-\contentsline {subsection}{\numberline {10.2}more on figure}{5}
-\contentsline {subsection}{\numberline {10.3}footnote}{5}
-\contentsline {subsection}{\numberline {10.4}hyper link}{6}
-\contentsline {section}{\numberline {11}size and fount}{6}
-\contentsline {subsection}{\numberline {11.1}size}{6}
-\contentsline {subsection}{\numberline {11.2}fount}{6}
-\contentsline {section}{\numberline {12}lists}{6}
-\contentsline {section}{\numberline {13}turn and rotate}{6}
-\contentsline {section}{\numberline {14}tables}{7}
-\contentsline {subsection}{\numberline {14.1}tabular}{7}
-\contentsline {section}{\numberline {15}vector image: gnuplot}{7}
-\contentsline {subsection}{\numberline {15.1}set format}{7}
-\contentsline {subsection}{\numberline {15.2}plot sin}{7}
-\contentsline {subsection}{\numberline {15.3}save file}{7}
-\contentsline {subsubsection}{\numberline {15.3.1}import}{7}
+\contentsline {section}{\numberline {10}size and fount}{5}
+\contentsline {subsection}{\numberline {10.1}size}{5}
+\contentsline {subsection}{\numberline {10.2}fount}{5}
+\contentsline {section}{\numberline {11}lists}{5}
+\contentsline {section}{\numberline {12}turn and rotate}{5}
+\contentsline {section}{\numberline {13}tables}{6}
+\contentsline {subsection}{\numberline {13.1}tabular}{6}
+\contentsline {section}{\numberline {14}vector image: gnuplot}{6}
+\contentsline {subsection}{\numberline {14.1}set format}{6}
+\contentsline {subsection}{\numberline {14.2}plot sin}{6}
+\contentsline {subsection}{\numberline {14.3}save file}{6}
+\contentsline {subsubsection}{\numberline {14.3.1}import}{6}
+\contentsline {section}{\numberline {15}notation and referance}{6}
+\contentsline {subsection}{\numberline {15.1}structure}{6}
+\contentsline {subsection}{\numberline {15.2}more on figure}{7}
+\contentsline {subsection}{\numberline {15.3}footnote}{7}
+\contentsline {subsection}{\numberline {15.4}hyper link}{7}
 \contentsline {section}{\numberline {16}common errors -- part 4 of the lecture}{7}
 \contentsline {subsection}{\numberline {16.1}errors and warings}{7}
 \contentsline {subsection}{\numberline {16.2}lengths}{7}

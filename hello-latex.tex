@@ -115,42 +115,6 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     \caption{2 images}
   \end{figure}
 }
-\section{notation and referance}{
-  \subsection{structure}{
-    {
-\begin{verbatim}
-  \lable{marker}
-  ...
-  \ref{marker}
-  ...
-  \pageref{marker}
-\end{verbatim}
-    }
-    we can ref the (figure:2img): \ref{fig:2img}
-  }
-
-  \subsection{more on figure}{
-    on\begin{verbatim}\begin{figure}[!t]\end{verbatim}
-    the $[!t]$ notation means force the image shows on the top of the page. \\
-    ps: \\
-    $[!h]$ means put it here. \\
-    $[!t]$ means put it on top. \\
-    $[!b]$ means put it on bottom. \\
-    $[!p]$ means put it into another page. \\
-  }
-
-  \subsection{footnote}{
-    this is the footnote \footnote{the footnote text is here}
-  }
-  \subsection{hyper link}{
-    %\usepackage{hyperref}
-    use the package 'hyperref' \\
-    $\backslash url\{http://the.url.is.here\}$ \\
-    $\backslash href\{http://there.is.another.url\}$
-    $\{$the link title or some discription$\}$
-  }
-}
-
 
 \section{size and fount}{
   \subsection{size}{
@@ -225,9 +189,45 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
   }
 }
 
-\section{common errors -- part 4 of the lecture}{
+
+\section{notation and referance}{
+  \subsection{structure}{
+    {
+\begin{verbatim}
+  \lable{marker}  % define marker
+  ...
+  \ref{marker}  % ref marker
+  ...
+  \pageref{marker}  % page of marker
+\end{verbatim}
+    }
+    we can ref the (figure:2img): \ref{fig:2img} \\
+    at page: \pageref{fig:2img}
+  }
+
+  \subsection{more on figure}{
+    on\begin{verbatim}\begin{figure}[!t]\end{verbatim}
+    the $[!t]$ notation means force the image shows on the top of the page. \\
+    ps: \\
+    $[!h]$ means put it here. \\
+    $[!t]$ means put it on top. \\
+    $[!b]$ means put it on bottom. \\
+    $[!p]$ means put it into another page. \\
+  }
+
+  \subsection{footnote}{
+    this is the footnote \footnote{the footnote text is here}
+  }
+  \subsection{hyper link}{
+    %\usepackage{hyperref}
+    use the package 'hyperref' \\
+    $\backslash url\{http://the.url.is.here\}$ \\
+    $\backslash href\{http://there.is.another.url\}$
+    $\{$the link title or some discription$\}$
+  }
+}
   
-  %\section{detial of formating images and tables}
+\section{common errors -- part 4 of the lecture}{  
 
 
   \subsection{errors and warings}{
@@ -235,7 +235,7 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     letter wrong like $\backslash dtae\{Mar.2014\}$: Undifined control sequence\\
     not in math mode: Not in Mathematics Mode. \\
     image or box are too large: Bad Boxes! \\
-    missing packages: Missing Packages \\
+    missing packages: Missing Packages
   }
   
   \subsection{lengths}{
@@ -247,13 +247,17 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     use $\backslash$framebox
   }
   \subsection{rules and struts}{
-    make some area black or something like that
+    make some area black or something like that \\
+    using \textbackslash{}rule command
   }
 }
 
 
 \section{mathematics and computers -- part 5 of the lecture}{
-  
+  \subsection{}{}
+  \subsection{}{}
+  \subsection{}{}
+  \subsection{}{}
 }
 
 
