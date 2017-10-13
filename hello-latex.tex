@@ -1,8 +1,12 @@
 \documentclass[11pt,a4paper]{article}
+\usepackage[final]{listings}
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{CJK}
 \usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
 
 \begin{document}
 
@@ -254,8 +258,51 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
 
 
 \section{mathematics and computers -- part 5 of the lecture}{
-  \subsection{}{}
-  \subsection{}{}
+  \subsection{methmatics packages and useage}{
+    \textbackslash{}usepackage\{amsmath\}\\
+    \textbackslash{}usepackage\{amssymb\}\\
+    \textbackslash{}usepackage\{amsthm\}\\
+    inline math:\\
+    \(a+a\) \& $b+b$\\
+    multi line:\\
+    \[c+c\] \& $$d+d$$\\
+    \begin{proof}
+      proof of something.\\
+      proof detail.
+    \end{proof}
+  }
+  \subsection{computers heigh light}{
+    \textbackslash{}uspackage\{listings\}\\
+    \textbackslash{}uspackage\{color\}\\
+    
+    \textbackslash{}definecolor\{myred\}\{rgb\}\{0.5, 0, 0\}\\
+    \textbackslash{}definecolor\{mygreen\}\{rgb\}\{0, 0.5, 0\}\\
+    \textbackslash{}definecolor\{myblue\}\{rgb\}\{0, 0, 0.5\}\\
+
+    \definecolor{myred}{rgb}{0.5, 0, 0}
+    \definecolor{mygreen}{rgb}{0, 0.5, 0}
+    \definecolor{myblue}{rgb}{0, 0, 0.5}
+    \lstdefinestyle{customc}{
+      belowcaptionskip=1\baselineskip,
+      breaklines=true, frame=L, xleftmargin=\parindent,
+      language=Java, showstringspaces=false,
+      basicstyle=\footnotesize\ttfamily,
+      keywordstyle=\bfseries\color{mygreen},
+      identifierstyle=\color{myblue},
+      stringstyle=\color{myred}
+    }
+    \lstset{style=customc}
+    
+    \begin{lstlisting}[frame=single]
+      public class Factorial
+      {
+        public static void main(String[] args)
+        { ... }
+        public static int factorial(int n)
+        { ... }
+      }
+    \end{lstlisting}
+  }
   \subsection{}{}
   \subsection{}{}
 }
