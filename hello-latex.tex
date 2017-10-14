@@ -8,6 +8,9 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 
+%\usepackage[version=3]{mhchem}
+\usepackage{chemfig}
+
 \begin{document}
 
 \title{this is a title}
@@ -303,9 +306,21 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
       }
     \end{lstlisting}
   }
-  \subsection{}{}
-  \subsection{}{}
 }
 
+\section{chem and language -- part 6}{
+  \subsection{chem}{
+    \textbackslash{}uspackage[version=3]\{mhchem\} \\
+    \textbackslash{}uspackage\{chemfig\} \\    
+                  {
+\begin{verbatim}
+  \chemfig{
+    *6(=([:270]-\ce {NO2})-=([:45]-\ce {NO2})-(-)=([:135]-\ce {NO2})-)
+  }
+\end{verbatim}
+                  }
+  }
+  \subsection{}
+}
 
 \end{document}
