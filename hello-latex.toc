@@ -39,4 +39,4 @@
 \contentsline {subsection}{\numberline {17.2}computers heigh light}{8}
 \contentsline {section}{\numberline {18}chem and language -- part 6}{9}
 \contentsline {subsection}{\numberline {18.1}chem}{9}
-\contentsline {subsection}{\numberline {18.2}}{9}
+\contentsline {subsection}{\numberline {18.2}language}{9}
