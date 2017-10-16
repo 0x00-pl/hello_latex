@@ -1,15 +1,15 @@
 \contentsline {section}{\numberline {1}section 0 哈哈 \LaTeX }{2}
 \contentsline {section}{\numberline {2}compile}{2}
 \contentsline {subsection}{\numberline {2.1}MakeFile}{2}
-\contentsline {subsection}{\numberline {2.2}sections}{2}
+\contentsline {subsection}{\numberline {2.2}sections}{3}
 \contentsline {subsubsection}{\numberline {2.2.1}set section counter}{3}
 \contentsline {section}{\numberline {3}contents 你好 \LaTeX }{3}
 \contentsline {paragraph}{first contents}{3}
 \contentsline {section}{\numberline {4}strings}{3}
 \contentsline {section}{\numberline {5}formulas}{3}
 \contentsline {section}{\numberline {6}left and right}{3}
-\contentsline {section}{\numberline {7}something verbatim}{3}
-\contentsline {section}{\numberline {8}colors}{3}
+\contentsline {section}{\numberline {7}something verbatim}{4}
+\contentsline {section}{\numberline {8}colors}{4}
 \contentsline {section}{\numberline {9}images}{5}
 \contentsline {section}{\numberline {10}size and fount}{5}
 \contentsline {subsection}{\numberline {10.1}size}{5}
@@ -40,3 +40,6 @@
 \contentsline {section}{\numberline {18}chem and language -- part 6}{9}
 \contentsline {subsection}{\numberline {18.1}chem}{9}
 \contentsline {subsection}{\numberline {18.2}language}{9}
+\contentsline {section}{\numberline {19}special pages \& documents -- part 7}{9}
+\contentsline {subsection}{\numberline {19.1}index term and reference}{9}
+\contentsline {subsection}{\numberline {19.2}letter ppt homework and pr}{9}
