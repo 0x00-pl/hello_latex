@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  26 OCT 2017 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  26 OCT 2017 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,8 +685,18 @@ Overfull \hbox (42.40814pt too wide) in paragraph at lines 321--321
 -\ce {NO2})-)[] 
  []
 
+! Undefined control sequence.
+l.350     change \textbacksllash
+                                {}docmentclass\{ ... \} to \{letter\}.
+? q
+OK, entering \batchmode...
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
+
+ []
+
 No file hello-latex.ind.
-[9] (./hello-latex.aux) ) 
+ [9] (./hello-latex.aux) ) 
 Here is how much of TeX's memory you used:
  14936 strings out of 494565
  277570 string characters out of 6172774
@@ -696,4 +706,4 @@ Here is how much of TeX's memory you used:
  264 hyphenation exceptions out of 8191
  62i,8n,69p,411b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hello-latex.dvi (9 pages, 27300 bytes).
+Output written on hello-latex.dvi (9 pages, 27492 bytes).
