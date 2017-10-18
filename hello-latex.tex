@@ -347,14 +347,23 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
     reference file use Bib file format.
   }
   \subsection{letter ppt homework and pr}{
-    change \textbacksllash{}docmentclass\{ ... \} to \{letter\}.
+    \subsubsection{letter}
+    change \textbackslash{}docmentclass\{ ... \} to \{letter\}.
     and it will give some special command as usable.
 
+    \subsubsection{ppt}
     use documentclass \{beamer\} for ppt \\
     \textbackslash{}begin\{frame\} ... \textbackslash{}end\{frame\} \\
     for each page.\\
 
-    homework use \{exam\}
+    \subsubsection{homework}
+    homework use documentclass \{exam\} with \\
+    \textbackslash{}begin\{questions\}\\
+    \textbackslash{}question Is this a question.\\
+    \textbackslash{}begin\{solution\}\\
+    Yes\\
+    \textbackslash{}end\{solution\}\\
+    \textbackslash{}end\{questions\}\\
   }
 }
 
