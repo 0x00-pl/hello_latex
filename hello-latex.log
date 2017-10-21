@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  27 OCT 2017 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.3.6)  27 OCT 2017 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,7 +596,17 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-) (./hello-latex.toc)
+) (./hello-latex.toc
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 1.
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/c70gbsn.fd
+File: c70gbsn.fd 2008/10/03 4.8.1
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/c70gbsn.fdx
+File: c70gbsn.fdx 2012/05/07 4.8.3
+) [1
+
+])
 \tf@toc=\write6
 \openout6 = `hello-latex.toc'.
 
@@ -606,16 +616,7 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-)
-LaTeX Font Info:    Try loading font information for C70+gbsn on input line 29.
-
-
-(/usr/share/texmf/tex/latex/CJK/UTF8/c70gbsn.fd
-File: c70gbsn.fd 2008/10/03 4.8.1
-)
-(/usr/share/texmf/tex/latex/CJK/UTF8/c70gbsn.fdx
-File: c70gbsn.fdx 2012/05/07 4.8.3
-)
+) [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -629,31 +630,25 @@ File: UTF8.enc 2012/05/07 4.8.3
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2012/05/07 4.8.3
-) [1
-
-]
+) [3]
 Overfull \hbox (48.15683pt too wide) in paragraph at lines 97--97
 []\OT1/cmtt/m/n/10.95 some thing verbatim, which without escape \\ /23454234$&%
 ^&^(*^\z@%@#$%[] 
  []
 
 File: head_image.jpg Graphic file (type eps)
-<head_image.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3]
+<head_image.jpg> [4]
 File: head_image.jpg Graphic file (type eps)
  <head_image.jpg>
 File: head_image.jpg Graphic file (type eps)
- <head_image.jpg> [4
+ <head_image.jpg> [5
 
-] [5]
+] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 218--225
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 266--272
 
  []
@@ -683,7 +678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--317
 
  []
 
-[7]
+[8]
 Overfull \hbox (42.40814pt too wide) in paragraph at lines 321--321
 []    \OT1/cmtt/m/n/10.95 *6(=([:270]-\ce {NO2})-=([:45]-\ce {NO2})-(-)=([:135]
 -\ce {NO2})-)[] 
@@ -699,23 +694,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--367
 
  []
 
-[8]
+[9]
 
 LaTeX Warning: \oval, \circle, or \line size unavailable on input line 379.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--394
+
+ []
+
 No file hello-latex.ind.
-[9] (./hello-latex.aux)
+[10] (./hello-latex.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 14931 strings out of 494565
- 277473 string characters out of 6172774
- 352620 words of memory out of 5000000
- 17988 multiletter control sequences out of 15000+600000
- 18612 words of font info for 72 fonts, out of 8000000 for 9000
+ 14937 strings out of 494565
+ 277577 string characters out of 6172774
+ 352625 words of memory out of 5000000
+ 17993 multiletter control sequences out of 15000+600000
+ 19218 words of font info for 74 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  62i,8n,69p,411b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hello-latex.dvi (9 pages, 21148 bytes).
+Output written on hello-latex.dvi (10 pages, 33696 bytes).

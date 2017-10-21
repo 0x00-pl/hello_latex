@@ -371,7 +371,7 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
 }
 
 \section{creating graphics}{
-  \subsection{}{
+  \subsection{picture}{
     picture tools \\
     \begin{figure}
       \setlength{\unitlength}{0.5mm}
@@ -383,7 +383,12 @@ some thing verbatim, which without escape \\ /23454234$&%^&^(*^\z@%@#$%
       \label{fig:9}
     \end{figure}
   }
-  \subsection{}{
+  \subsection{gnuplot}{
+    set term post eps \\
+    set output 'xxx.eps' \\
+    ... \\
+    set term x11 \\
+    set output \\
   }
 }
 
