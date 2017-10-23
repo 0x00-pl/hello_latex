@@ -52,3 +52,5 @@
 \contentsline {subsection}{\numberline {20.2}gnuplot}{10}
 \contentsline {section}{\numberline {21}ending}{11}
 \contentsline {subsection}{\numberline {21.1}programming}{11}
+\contentsline {subsection}{\numberline {21.2}inputing: merge files}{11}
+\contentsline {subsection}{\numberline {21.3}export to HTML}{11}
